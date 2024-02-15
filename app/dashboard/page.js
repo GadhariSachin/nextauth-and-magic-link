@@ -27,7 +27,7 @@ const Dashboard = () => {
     try {
       await magic.user.logout();
       
-      router.push('/')
+      router.push('/magic-auth')
 
     } catch (err) {
       console.error(err);
